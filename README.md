@@ -26,7 +26,7 @@ Refer to [Wandi-SSAL-examples.c](Wandi-SSAL-examples.c) for detailed application
 
 For Linux OS download [Fail-Safe-Application-Logger.zip](./Wandi-SSAL-Free-Install_dst.zip) file, unzip it and refer to the **README** file for further installation and execution instructions.
 
-This library is part of another effort to provide [advanced logging capabilities](Benefit-over-other-logging-systems.pdf) over existing logging tools, utilities and systems.
+This library is part of another effort to provide [Secure Software Adaptable Logging](Benefit-over-other-logging-systems.pdf) over existing logging tools, utilities and systems.
 
 Github repository for [files and downloads](https://github.com/wandi-ssal/secure-application-logger)
 
