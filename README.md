@@ -6,6 +6,8 @@ The primary benefit using this fail-safe C-Program API library over other applic
 
 To address printf() style runtime problems the API uses a [Bound Parameter approach](WandiSSAL-Bound-Capabilities.pdf) to decode, analyze and validate log arguments to ensure valid API usage, fail-safe execution and reliable log message generation.
 
+*The goal is to minimize C/C++ programming flaws and program execution faults from causing the application to crash. In some cases, it is possible to prevent the application from crashing, but could not guarantee the data used is correct (e.g., use of an invalid data pointer).*
+
 The library API:
 1. uses C-Program print() style interface that is often used by programmers to log messages.
 2. decodes log message strings and arguments into element/value pairs.
