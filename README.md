@@ -1,5 +1,5 @@
 <div align="center">
-<h2> Fail-safe application API logger that minimize application crash when generating log messages.</h2>
+<h2> Fail-safe API library that minimize C/C++ application crash when generating log messages.</h2>
 </div>
 
 The primary benefit using this fail-safe C-Program API library over other application loggers, is that it does extensive runtime validation to prevent the application from crashing due to common printf() style pitfalls (e.g., using NULL, 0 or negative value for %s). If a runtime validation fails the API generates an error code and simply returns, allowing the application to continue normal processing (no need for the application to stop processing). The API uses a [Bound Parameter](WandiSSAL-Bound-Capabilities.pdf) approach to decode, analyze and validate log arguments to ensure valid API usage, fail-safe execution and reliable log message generation.
