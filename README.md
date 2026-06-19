@@ -25,9 +25,9 @@ Setup [LoggerMessageDefines.txt](WandiSSAL-LoggerMessageDefines.pdf) file used b
 Refer to [WandiSSAL-examples.c](WandiSSAL-examples.c) for detailed application examples using the Bound Capability Parameter Validation.
 
 For Linux OS:
-* download [Fail-Safe-Application-Logger.zip](./WandiSSAL-LoggerLib-2.0-Install_dst.zip) and [WandiSSAL-LoggerLib-2.0-Install_dst.zip.asc](./WandiSSAL-LoggerLib-2.0-Install_dst.zip.asc) files.
-* verify zip file integrity: `gpg --verify WandiSSAL-LoggerLib-2.0-Install_dst.asc WandiSSAL-LoggerLib-2.0-Install_dst.zip`
-* if OK then unzip file: `unzip WandiSSAL-LoggerLib-2.0-Install_dst.zip`
+* download [Fail-Safe-Application-Logger.zip](./WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip) and [WandiSSAL-LoggerLib-2.0-Install_dst.zip.asc](./WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip.asc) files.
+* verify zip file integrity: `gpg --verify WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip.asc WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zipp`
+* if OK then unzip file: `unzip WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip`
 * and refer to the **README** file for further installation and execution instructions.
 
 
