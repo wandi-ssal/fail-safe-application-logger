@@ -32,6 +32,6 @@ For Linux OS:
 
 
 
-Github repository for [files and downloads](https://github.com/wandi-ssal/fail-safe-application-logger)
+Github repository for [documentations and downloads](https://github.com/wandi-ssal/fail-safe-application-logger)
 
 Contact: **bwoodley@istech.com**
