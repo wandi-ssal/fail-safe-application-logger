@@ -10,7 +10,7 @@ In addition, if a runtime validation fails the API generates an error code and s
 
 During runtime, the API uses a [Bound Parameter](WandiSSAL-Bound-Capabilities.pdf) approach to decode, analyze and validate execution behavior to ensure valid API usage, fail-safe execution and reliable log message generation.
 
-*Appreciate your input and recommendation on improving the Bound Parameter list.*
+*Appreciate your Discussion input and recommendation on improving the Bound Parameter list.*
 
 This library is part of another effort to provide [Secure Software Adaptable Logging](Advanced-Logging-Capabilities.pdf) currently does exist with other logging tools, utilities and systems.
 
