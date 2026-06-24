@@ -8,7 +8,7 @@ The primary benefit using this fail-safe C-Program API library over other applic
 
 In addition, if a runtime validation fails the API generates an error code and simply returns, allowing the application to continue normal processing (no need for the application to check/stop processing).
 
-During runtime, the API uses a [Bound Parameter](WandiSSAL-Bound-Capabilities.pdf) approach to decode, analyze and validate execution behavior to ensure valid API usage, fail-safe execution and reliable log message generation.
+During runtime, the API decode, analyze and apply 18 different [Bound Parameter](WandiSSAL-Bound-Capabilities.pdf) verification techniques to ensure log messages are used accurately, fail-safe abd reliable to generate.
 
 *Appreciate your Discussion input and recommendation on improving the Bound Parameter list.*
 
