@@ -23,14 +23,14 @@ The library API:
 7. generates log messages for development and deployment environments.
 8. provides robust, fail-safe and reliable API operations.
 
-Quick how to use [Wandi-SSAL API functions in C/C++ Program application.](WandiSSAL-Using-API-Function.pdf)
+How to use [Wandi-SSAL API functions in C/C++ Program application.](WandiSSAL-Using-API-Function.pdf), see [WandiSSAL-simple-example.c](WandiSSAL-simple-example.c)
 * Details for [LoggerStartUp()](WandiSSAL-API-LoggerStartUp-Function.pdf) function.
 * Details for [LoggerAppsMsg()](WandiSSAL-API-LoggerAppsMsg-Function.pdf) function.
 * Details for [LoggerShutDown()](WandiSSAL-API-LoggerShutDown-Function.pdf) function.
 
 Setup [LoggerMessageDefines.txt](WandiSSAL-LoggerMessageDefines.pdf) file used by Wandi-SSAL API functions.
 
-Refer to [WandiSSAL-examples.c](WandiSSAL-examples.c) for detailed application examples using the Bound Capability Parameter Validation.
+Detailed exapmales using Bound Capability Parameter Validation, see [WandiSSAL-examples.c](WandiSSAL-bound-examples.c)
 
 For Linux OS:
 * download [WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip](./WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip) and [WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip.asc](./WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip.asc) files.
