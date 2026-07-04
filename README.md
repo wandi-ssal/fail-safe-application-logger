@@ -26,7 +26,7 @@ How to use [Wandi-SSAL API functions in C/C++ Program application.](WandiSSAL-Us
 
 Setup [LoggerMessageDefines.txt](WandiSSAL-LoggerMessageDefines.pdf) file used by Wandi-SSAL API functions.
 
-Detailed examples using Bound Capability Parameter Validation, see [WandiSSAL-examples.c](WandiSSAL-bound-examples.c)
+Detailed examples using Bound Capability Parameter Validation, see [WandiSSAL-bound-examples.c](WandiSSAL-bound-examples.c)
 
 For Linux OS:
 * download [WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip](./WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip) and [WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip.asc](./WandiSSAL-LoggerLib-2.0-linux-arm64-gnu.zip.asc) files.
