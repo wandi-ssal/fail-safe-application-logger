@@ -4,7 +4,7 @@
 
 The primary benefit using this fail-safe C-Program API library over other application loggers, is that it does extensive runtime validation to prevent the application from crashing due to common programmers printf() style pitfalls or unpredictable execution segmentation faults. (e.g., string type %s using NULL, 0 or negative value).
 
-During runtime, the API decode, analyze and apply 18 different [Bound Parameter](WandiSSAL-Bound-Capabilities.pdf) verification techniques to ensure log messages are used accurately, fail-safe abd reliable to generate.
+During runtime, the API decode, analyze and apply 18 different [Bound Parameter](WandiSSAL-Bound-Capabilities.pdf) verification techniques to ensure log messages are used accurately, fail-safe and reliable to generate.
 
 In addition, if a runtime validation fails the API generates an error code and simply returns, allowing the application to continue normal processing (no need for the application to check/stop processing).
 
