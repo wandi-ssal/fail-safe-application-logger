@@ -23,9 +23,9 @@ SOFTWARE.
 *************************************************************/
 #include        <stdlib.h>
 #include        <stdio.h>
-#include        "WandiSSAL-LoggerLib-2.0.h"
+#include        "WandiSSAL-LoggerLib-2.1.h"
 
-main()
+int main()
 {
     WandiSSAL_LoggerStartUp();
 	
