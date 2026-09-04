@@ -2,9 +2,21 @@
 <h2> Fail-safe API library that minimize C/C++ application crash when generating log messages.</h2>
 </div>
 
-The primary benefit using this fail-safe and adjustable C/C++ Program application API logger library is that the API performs extensive runtime checks and validations to identify programmatic faults/errors and take appropriate programmatic actions to minimize the application from crashing. The API handles many common printf() style pitfalls that often leads to unpredictable execution errors and segmentation faults. (e.g., passing %s specification values of NULL, 0 or negative numbers). Furthermore, if a runtime validation check fails the API generates an error code and simply returns, allowing the application to continue normal processing (no need for the application to check return status and/or stop processing).
-
-During runtime, the API decode, analyze and apply 18 different (WandiSSAL-Bound-Capabilities.pdf) verification techniques to ensure log messages are used accurately, fail-safe and reliable to generate log messages.
+The primary benefit using this fail-safe C-Program API library over other application loggers, is that it does extensive runtime validation to prevent the application from crashing due to common programmers printf() style pitfalls or unpredictable execution segmentation faults. (e.g., string type %s using NULL, 0 or negative value).
+During runtime, the API decode, analyze and apply 18 different Bound Parameter verification techniques (see WandiSSAL-Bound-Capabilities.pdf) to ensure log messages are used accurately, fail-safe and reliable. If a runtime validation fails the API generates an error code and simple returns, allowing the application to continue normal processing (no need for the application to check/stop processing).
+In addition, the library was designed and implemented using secure coding practices and techniques. It was further tested with Common Weakness Enumeration (CWE) security scanning tools to identify CWE vulnerabilities and weaknesses applicable to the library codebase. Based on those finding the codebase was enhanced to incorporate CWE recommended solutions to reduce security risks and increase software reliability. This includes but not limited to the following CWEs:
+* CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition').
+* CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow').
+* CWE-134: Use of Externally-Controlled Format String.
+* CWE-126: Buffer Over-read.
+* CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer.
+* CWE-190: Integer Overflow or Wraparound.
+* CWE-787: Out-of-bounds Write.
+* CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+* CWE-20: Improper Input Validation.
+* CWE-284: Improper Access Control.
+* CWE-200: Exposure of Sensitive Information to an Unauthorized Actor.
+* CWE-770: Allocation of Resources Without Limits or Throttling.
 
 The library API:
 *	provides print() style interface that is commonly used for logging messages.
